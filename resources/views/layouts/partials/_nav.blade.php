@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top fixed-top">
   <div class="container " style="text-align: center;">
     <a class="navbar-brand" href="{{route('root_path')}}">Laracate</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,10 +8,10 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{{route('root_path')}}">Home</a>
+          <a class="nav-link {{set_active_route('root_path')}}" aria-current="page" href="{{route('root_path')}}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{route('about_path')}}">About</a>
+          <a class="nav-link {{set_active_route('about_path')}}" href="{{route('about_path')}}">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Artisans</a>
