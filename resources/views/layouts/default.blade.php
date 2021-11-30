@@ -16,13 +16,17 @@
 		margin-top: 4em;
 		margin-bottom: 4em;
 	}
+  .body{
+     margin-top: 4%;
+  }
 </style>
 <body>
 
 @include('layouts/partials/_nav')
-
+  
+  <div class="body">
 @yield('content')
-
+</div>
 
 @include('layouts/partials/_footer')
 <script

@@ -1,5 +1,6 @@
 @extends('layouts.default', ['title'=> 'Home'])
 
 @section('content')
-<h1>Laracarte</h1>
+<div class="container"><h1>Laracarte</h1></div>
+
 @stop

@@ -30,7 +30,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link {{set_active_route('contact_path')}}" href="{{route('contact_path')}}">Contact</a>
         </li>
       </ul>
      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
